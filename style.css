@@ -1,0 +1,38 @@
+* {
+  font-family: "Merriweather", serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("resources/BannerImage.png");
+  
+  border-radius: 16px;
+  width: 1920px;
+  height: 900px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner {
+  text-align: center;
+}
+
+.banner-title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  padding-top: 15%;
+}
+
+.banner-description {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  padding-left: 550px;
+  padding-right: 550px;
+}
