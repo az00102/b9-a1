@@ -79,10 +79,112 @@
 
 /*This is the styles related to party*/
 .party {
-  background-image: url("resources/Vectorrr.png");
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("resources/Vectorrr.png");
   width: 1920px;
   height: 900px;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
+}
+
+.party-element-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.party-title {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 84px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 15px;
+  margin-top: 280px;
+  margin-left: 190px;
+  margin-right: 402px;
+}
+
+.party-description {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-left: 190px;
+  margin-right: 552px;
+  margin-top: 24px;
+}
+
+.btn-join {
+  border-style: none;
+  background-color: transparent;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* padding-left: 238px;
+  padding-top: 48px; */
+  margin-left: 238px;
+  margin-top: 48px;
+}
+
+.party-greeting-image {
+  position: relative;
+  top: 110px;
+  left: -200px;
+}
+
+/*schedule part style*/
+.schedule {
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  width: 1920px;
+  height: 700px;
+  border-radius: 16px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.schedule-container {
+  padding-top: 150px;
+}
+
+.schedule-text {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.btn-schedule {
+  display: inline-flex;
+  border-radius: 8px;
+  border-style: none;
+  background: #ff0000;
+  margin-top: 48px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-schedule-text {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
 }
