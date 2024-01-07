@@ -271,3 +271,75 @@
   line-height: 32px; /* 160% */
   margin-bottom: 26px;
 }
+
+/*holiday sale style*/
+
+.holiday-sale {
+  width: 1920px;
+  height: 1750px;
+}
+
+.holiday-title-description {
+  text-align: center;
+}
+
+.starting-line {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.holiday-title {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+
+.holiday-title span{
+  color: #F00;
+}
+
+.holiday-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  margin-left: 320px;
+  margin-right: 320px;
+  margin-bottom: 64px;
+}
+
+.holiday-sale-posters{
+}
+
+.rectangle-1-img{
+  position: relative;
+  left: 1471px;
+  top: 5px;
+}
+
+.group-44-mg{
+  position: relative;
+  left: 857px;
+  top: -50px;
+}
+
+.rectangle-2-img{
+  width: 1900px;
+}
+
+.group-75-img{
+  position: relative;
+  top: -750px;
+}
+
+
