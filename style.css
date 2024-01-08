@@ -412,7 +412,6 @@
     rgba(255, 0, 0, 0.05) 100%
   );
   background-size: cover;
-  margin-left: 20px;
   border-radius: 16px;
   margin-bottom: 120px;
 }
@@ -538,20 +537,19 @@ input {
   font-weight: 500;
 }
 
-.web-position{
+.web-position {
   position: relative;
   top: -70px;
   left: 5px;
 }
 
-.call-icon{
+.call-icon {
   position: relative;
   top: 165px;
   left: -35px;
 }
 
-.web-icon{
+.web-icon {
   position: relative;
   left: -35px;
-
 }
