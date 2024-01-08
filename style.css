@@ -1,5 +1,5 @@
 * {
-  padding: 0px;
+  padding: 0;
 }
 
 .btn {
@@ -61,7 +61,8 @@
   font-family: Inter;
   font-size: 88px;
   font-weight: 700;
-  margin-bottom: 48px;
+  position: relative;
+  top: 36px;
 }
 
 .deals-are-better {
@@ -69,7 +70,8 @@
   font-family: Inter;
   font-size: 20px;
   font-weight: 500;
-  margin-bottom: 16px;
+  position: relative;
+  top: 16px;
 }
 
 .deals-cat {
@@ -149,7 +151,7 @@
     rgba(255, 0, 0, 0.1) 0%,
     rgba(255, 0, 0, 0) 100%
   );
-  width: 1920px;
+  width: 1890px;
   height: 700px;
   border-radius: 16px;
   text-align: center;
@@ -199,7 +201,6 @@
   text-align: left;
   width: 1920px;
   height: 700px;
-  margin-bottom: 120px;
 }
 
 .best-offer-part1 {
@@ -212,7 +213,8 @@
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
-  margin-bottom: 16px;
+  position: relative;
+  top: 16px;
 }
 
 .best-offer-subtitle {
@@ -292,7 +294,8 @@
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
-  margin-bottom: 16px;
+  position: relative;
+  top: 50px;
 }
 
 .holiday-title {
@@ -364,7 +367,8 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-bottom: 16px;
+  position: relative;
+  top: 26px;
 }
 
 .best-gifts-sub-title {
@@ -405,7 +409,7 @@
 
 /*Subscribe section*/
 .subscribe-newsletter {
-  width: 1920px;
+  width: 1630px;
   height: 716px;
   background-image: linear-gradient(
     rgba(255, 0, 0, 0.05) 0%,
@@ -413,6 +417,7 @@
   );
   background-size: cover;
   border-radius: 16px;
+  margin-left: 150px;
   margin-bottom: 120px;
 }
 
@@ -483,7 +488,7 @@ input {
 /*footer styles*/
 .footer-container {
   width: 1920px;
-  height: 709px;
+  height: 809px;
   background-color: #070211;
 }
 
@@ -512,7 +517,6 @@ input {
 .social-media-icons {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   display: block;
-  margin-top: 98px;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 550px;
