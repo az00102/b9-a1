@@ -487,9 +487,12 @@ input {
 
 /*footer styles*/
 .footer-container {
-  width: 1920px;
-  height: 809px;
+  height: 759px;
   background-color: #070211;
+  width: auto;
+  position: relative;
+  bottom: 0;
+  left: -10px;
 }
 
 .footer-address-contact {
@@ -510,15 +513,14 @@ input {
   margin-top: 120px;
 }
 .contact-position {
-  margin-top: 120px;
+  margin-top: 105px;
   padding-right: 300px;
 }
 
 .social-media-icons {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   display: block;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
   padding-left: 550px;
   margin-left: 155px;
   margin-right: 300px;
@@ -544,17 +546,18 @@ input {
 
 .web-position {
   position: relative;
-  top: -70px;
+  top: -75px;
   left: 5px;
 }
 
 .call-icon {
   position: relative;
-  top: 165px;
+  top: 150px;
   left: -35px;
 }
 
 .web-icon {
   position: relative;
-  left: -35px;
+  left: -33px;
+  top: -5px;
 }
