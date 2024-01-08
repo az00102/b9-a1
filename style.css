@@ -537,3 +537,21 @@ input {
   font-size: 24px;
   font-weight: 500;
 }
+
+.web-position{
+  position: relative;
+  top: -70px;
+  left: 5px;
+}
+
+.call-icon{
+  position: relative;
+  top: 165px;
+  left: -35px;
+}
+
+.web-icon{
+  position: relative;
+  left: -35px;
+
+}
