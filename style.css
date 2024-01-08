@@ -478,3 +478,60 @@ input {
   line-height: normal;
   padding-left: 50px;
 }
+
+/*footer styles*/
+.footer-container {
+  width: 1920px;
+  height: 709px;
+  background-color: #070211;
+}
+
+.footer-address-contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-contact-text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.address-position {
+  margin-left: 140px;
+  margin-top: 120px;
+}
+.contact-position {
+  margin-top: 120px;
+  padding-right: 300px;
+}
+
+.social-media-icons {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  display: block;
+  margin-top: 98px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 550px;
+  margin-left: 155px;
+  margin-right: 300px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.social-media-icons img {
+  margin: 24px;
+}
+
+.copyrights-unsubscribe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright-text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
